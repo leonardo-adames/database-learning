@@ -1,50 +1,70 @@
-# **MODÉLO ENTIDAD - RELACIÓN**
+<div align="center">
+    <kbd>
+        <h1><b>CURSO DE BASES DE DATOS- MÓDULO 2<br>DISEÑO & MODELADO DE BASES DE DATOS</b></h1>
+        <img width="2064" height="350" alt="Image" src="Ej-visual/relaciones.png" />
+        </kbd>
+        <br>
+        <br>
+    <h2>04  LAS RELACIONES</h2>
+</div>
 
 ## **¿ Qué son las Relaciones en "MER"?**
 
 En el **Modelo Entidad-Relación (MER)**, las relaciones son las conexiones o asociaciones entre dos o más entidades, representadas gráficamente por un rombo en un diagrama y nombradas con un **verbo** (como **"trabaja en"**, **"suministra"**) para describir cómo interactúan, definiendo también la cardinalidad (uno a uno, uno a muchos, muchos a muchos) que especifica el número de instancias de una entidad relacionadas con otra, fundamental para el diseño de bases de datos.
 
-### **¿Qué son las relaciones?**
+<br>
 
-**Definición:**
-
-* Son vínculos semánticos que establecen cómo interactúan o se asocian las entidades entre sí en un sistema de información.
-
-**Representación Gráfica:** 
+### **Representación Gráfica:** 
 
 * Se dibujan como un rombo en el Diagrama Entidad-Relación (DER).
 
-**Nomenclatura:**
+<div align="center">
 
-*Se nombran con verbos (ej. "pertenece", "escribe", "imparte") para clarificar la conexión.
+<img src="Ej-visual/1.4.2-Relaciones.jpg" width="100%"/>
+</div>
 
-![alt text](1.4.2-Relaciones.jpg)
+<br>
+
+### **Nomenclatura:**
+
+Se nombran con verbos (ej: **`pertenece`, `escribe`, `imparte`, `parte`, `trabaja en`, `suministra`**) para clarificar la conexión.
+
+<br>
 
 ### **Componentes Clave**
 
-* **Entidades:** Objetos o conceptos del mundo real (ej. Alumno, Profesor, Curso).
+    Entidades: Objetos o conceptos del mundo real (ej. Alumno, Profesor, Curso).
 
-* **Atributos:** Propiedades que describen a las entidades (ej. Nombre del Alumno).
+    Atributos:** Propiedades que describen a las entidades (ej. Nombre del Alumno).
 
-* **Cardinalidad:** Define cuántas instancias de una entidad se relacionan con cuántas de otra (ej. un Alumno puede tomar muchos Cursos).
+    Cardinalidad:** Define cuántas instancias de una entidad se relacionan con cuántas de otra (ej. un Alumno puede tomar muchos Cursos).
+
+<br>
 
 ### **Tipos de Cardinalidad**
 
-* **Uno a Uno (1:1):** Una instancia de A se relaciona con una y solo una de B, y viceversa (ej. un Director dirige un solo Instituto).
+* **Uno a Uno `1:1`:** Una instancia de A se relaciona con una y solo una de B, y viceversa (ej. un Director dirige un solo Instituto).
 
-* **Uno a Muchos (1:N):** Una instancia de A se relaciona con varias de B, pero cada B se relaciona con solo una de A (ej. un Departamento tiene muchos Empleados, pero un Empleado está en un solo Departamento).
+* **Uno a Muchos `1:N`:** Una instancia de A se relaciona con varias de B, pero cada B se relaciona con solo una de A (ej. un Departamento tiene muchos Empleados, pero un Empleado está en un solo Departamento).
 
-* **Muchos a Muchos (N:M):** Varias instancias de A se relacionan con varias de B (ej. Varios Alumnos pueden estar en varios Cursos).
+* **Muchos a Muchos `N:M`:** Varias instancias de A se relacionan con varias de B (ej. Varios Alumnos pueden estar en varios Cursos).
+
+<br>
 
 ### **Importancia**
 
 Es una herramienta esencial para el diseño lógico de bases de datos, permitiendo visualizar la estructura y las interdependencias de los datos antes de su implementación. Ayuda a identificar y resolver problemas en el diseño de bases de datos relacionales.
+
+<br>
+<br>
 
 # **RELACIONES REFLEXIVAS EN BASES DE DATOS**
 
 ## **¿ Qué son las Relaciones Reflexivas en "MER"?**
 
 En el **Modelo Entidad-Relación (MER)**, una **relación reflexiva (o recursiva)** es una conexión donde una misma **entidad se relaciona consigo misma**, actuando como si fueran dos entidades distintas pero en roles diferentes, como un "Empleado" que tiene un **"Superior" (otro Empleado)** o un **"Proyecto"** que contiene otros "Proyectos". Estas relaciones modelan jerarquías o estructuras internas (padre-hijo, jefe-subordinado) y se manejan en la transformación a modelo relacional creando una clave foránea dentro de la misma tabla para representar el rol.
+
+<br>
 
 ### **Características clave**
 
@@ -53,9 +73,14 @@ En el **Modelo Entidad-Relación (MER)**, una **relación reflexiva (o recursiva
 La entidad se conecta con otra instancia de sí misma.
 Roles distintos: La entidad juega dos roles diferentes en la relación (ej. "Jefe" y "Subordinado" en la entidad "Empleado").
 
-* **Cardinalidad:** Puede ser 1:1, 1:N o N:M, y se aplica la cardinalidad a cada rol para determinar la implementación.
+* **Cardinalidad:** Puede ser `1:1`, `1:N` o `N:M`, y se aplica la cardinalidad a cada rol para determinar la implementación.
 
-![alt text](1.4.3-Relaciones-reflexivas.jpg)
+<div align="center">
+
+<img src="Ej-visual/1.4.3-Relaciones-reflexivas.jpg" width="100%"/>
+</div>
+
+<br>
 
 ### **Ejemplos comunes**
 

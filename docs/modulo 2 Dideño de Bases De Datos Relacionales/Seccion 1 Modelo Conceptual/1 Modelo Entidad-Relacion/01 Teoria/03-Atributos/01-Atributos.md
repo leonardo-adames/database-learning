@@ -1,7 +1,7 @@
 <div align="center">
     <kbd>
         <h1><b>CURSO DE BASES DE DATOS- MÓDULO 2<br>DISEÑO & MODELADO DE BASES DE DATOS</b></h1>
-        <img width="2064" height="350" alt="Image" src="los atributos.png" />
+        <img width="2064" height="350" alt="Image" src="Ejemplo Visual/los atributos.png" />
     <h2>2.2  LOS ATRIBUTOS</h2>
     </kbd>
 </div>
@@ -38,7 +38,7 @@ Los atributos tienen varios propósitos fundamentales en el diseño de bases de 
 <div align="center">
     <kbd>
         <h1><b>CURSO DE BASES DE DATOS- MÓDULO 2<br>TIPOS DE ATRIBUTOS</b></h1>
-        <img width="2064" height="350" alt="Image" src="tipos de atributos.png" />
+        <img width="2064" height="350" alt="Image" src="Ejemplo Visual/tipos de atributos.png" />
     </kbd>
 </div>
 
@@ -64,7 +64,7 @@ Son aquellos que no se pueden dividir en partes más pequeñas con significado p
 
 <div align="center">
 
-<img src="1.3.2-atributos.jpg" width="100%"/>
+<img src="Ejemplo Visual/1.3.2-atributos.jpg" width="100%"/>
 </div>
 
 ---
@@ -106,7 +106,7 @@ Fecha: `Día`, `Mes`, `Año`.
 
 <div align="center">
 
-<img src="1.3.4-atributos-compuesto.jpg" width="100%"/>
+<img src="Ejemplo Visual/1.3.4-atributos-compuesto.jpg" width="100%"/>
 </div>
 
 <br>
@@ -146,7 +146,7 @@ En un **Modelo Entidad-Relación (MER)**, los **atributos multivaluados** son aq
 
 <div align="center">
 
-<img src="1.3.6-atributos-multivaluados.jpg" width="100%"/>
+<img src="Ejemplo Visual/1.3.6-atributos-multivaluados.jpg" width="100%"/>
 </div>
 
 <br>
@@ -175,7 +175,7 @@ Tomemos como ejemplo una entidad de **EMPLEADO** únicamente. Supongamos que tie
 
 <div align="center">
 
-<img src="1.3.8-atributos-calculados.jpg" width="100%"/>
+<img src="Ejemplo Visual/1.3.8-atributos-calculados.jpg" width="100%"/>
 </div>
 
 Si tomamos otro atributo, la **edad**, podemos derivarlo del atributo **fecha de nacimiento**. La **edad** no necesita estar presente Fisicamente en la base de datos. Los **atributos derivados se representan con la elipse punteada o descontinua**, como se muestra en la figura.
@@ -209,9 +209,11 @@ Si tomamos otro atributo, la **edad**, podemos derivarlo del atributo **fecha de
 
 Las `restricciones` en los **atributos** son `reglas` que se aplican a los valores que pueden tomar los atributos de una entidad con las cuales se determinan que `valores se pueden almacenar` en cada atributo de una `entidad o relación`. Estas restricciones son fundamentales para mantener Y la `integridad`, `consistencia` y `validez` de los datos en una base de datos.
 
-### **Tipos de Restricciones Comunes:**
+<br>
 
-**1️⃣ Restricción de Dominio (Domain Constraint):**
+## **Tipos de Restricciones Comunes:**
+
+### 1️⃣ **Restricción de Dominio (Domain Constraint):**
 
 **¿Qué es?**
 
@@ -231,7 +233,7 @@ El `dominio` no tiene un símbolo gráfico específico estándar, pero se indica
 
 <div align="center">
 
-<img src="restrigcion0.png" width="100%"/>
+<img src="Ejemplo Visual/restrigcion0.png" width="100%"/>
 </div>
  
 ---
@@ -239,7 +241,7 @@ El `dominio` no tiene un símbolo gráfico específico estándar, pero se indica
 
 ---
 
-**2️⃣ Atributo obligatorio u opcional (Nulabilidad):**
+### 2️⃣ **Atributo obligatorio u opcional (Nulabilidad):**
 
 **¿Qué significa?**
 
@@ -271,14 +273,14 @@ Pero esto depende del estándar gráfico adoptado.
 
 <div align="center">
 
-<img src="restrigcion1.png" width="100%"/>
+<img src="Ejemplo Visual/restrigcion1.png" width="100%"/>
 </div>
 
 ---
 <br>
 
 ---
-3️  **Restricción de Unicidad:**
+### 3️  **Restricción de Unicidad:**
 
 **¿Qué significa?**
 
@@ -292,7 +294,7 @@ Subrayando el nombre del atributo
 
 <div align="center">
 
-<img src="1.3.2-atributos.jpg" width="100%"/>
+<img src="Ejemplo Visual/1.3.2-atributos.jpg" width="100%"/>
 </div>
 
 El subrayado indica:
@@ -310,7 +312,7 @@ Si hay más de un atributo identificador, se subrayan todos (clave compuesta).
 
 ---
 
-4️⃣ Clave primaria (Identificador)
+### 4️⃣ **Clave primaria (Identificador)**
 
 **Qué es**
 
@@ -324,10 +326,9 @@ Si es compuesta → se subrayan todos los atributos participantes.
 
 Ejemplo:
 
-
 <div align="center">
 
-<img src="restrigcion2.png" width="100%"/>
+<img src="Ejemplo Visual/restrigcion2.png" width="100%"/>
 </div>
 
 ---

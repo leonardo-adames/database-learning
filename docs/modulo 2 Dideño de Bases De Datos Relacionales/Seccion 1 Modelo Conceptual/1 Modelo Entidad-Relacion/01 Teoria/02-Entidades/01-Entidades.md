@@ -1,7 +1,7 @@
 <div align="center">
     <kbd>
         <h1><b>CURSO DE BASES DE DATOS- MÓDULO 2<br>DISEÑO & MODELADO DE BASES DE DATOS</b></h1>
-        <img width="2064" height="300" alt="Image" src="Entidades.png" />
+        <img width="2064" height="400" alt="Image" src="https://github.com/user-attachments/assets/11953be5-c26f-4448-9949-77fd399f63ed" />
     <h2>2.2  LAS ENTIDADES</h2>
     </kbd>
 </div>
@@ -14,7 +14,7 @@
 
 <div align="center">
 
-<img src="1.2.1-entidades.jpg" width="100%"/>
+<img src="Ej Visual/1.2.1-entidades.jpg" width="100%"/>
 </div>
 
 ### **Propósito:**
@@ -37,7 +37,7 @@ Constituyen las futuras `tablas` en la base de datos, almacenando registros o in
 <div align="center">
     <kbd>
         <h1><b>CURSO DE BASES DE DATOS- MÓDULO 2<br>DISEÑO & MODELADO DE BASES DE DATOS</b></h1>
-        <img width="2064" height="300" alt="Image" src="Entidades Debiles.png" />
+        <img width="2064" height="512" alt="Image" src="https://github.com/user-attachments/assets/079d9314-bea0-4cef-8523-41ce493743c2" />
     <h2>2.2  LAS ENTIDADES DEBILES</h2>
     </kbd>
 </div>
@@ -76,5 +76,5 @@ La relación con la entidad fuerte se representa con un rombo de doble línea y 
 
 <div align="center">
 
-<img src="1.2.2-entidades-débiles.jpg" width="100%"/>
+<img src="Ej Visual/1.2.2-entidades-débiles.jpg" width="100%"/>
 </div>
