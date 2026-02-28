@@ -35,11 +35,14 @@ De cada partida, se registran todos los movimientos que la componen, la identifi
 
 Para cada movimiento se guardan la jugada y un breve comentario de un experto.
 
+<div align="center">
 <details>
   <summary>Solución</summary>
   
-  ![Descripción de la imagen](./solucion.png)
+  <img src="solucion.png" alt="Solución" width="100%"/>
   
 </details>
 
 [Video resolviendo el ejercicio](https://youtu.be/z5orMNEL8p0)
+
+</div>

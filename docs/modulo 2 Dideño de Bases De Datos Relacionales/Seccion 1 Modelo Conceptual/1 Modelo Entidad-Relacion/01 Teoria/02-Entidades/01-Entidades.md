@@ -2,8 +2,10 @@
     <kbd>
         <h1><b>CURSO DE BASES DE DATOS- MÓDULO 2<br>DISEÑO & MODELADO DE BASES DE DATOS</b></h1>
         <img width="2064" height="400" alt="Image" src="https://github.com/user-attachments/assets/11953be5-c26f-4448-9949-77fd399f63ed" />
-    <h2>2.2  LAS ENTIDADES</h2>
     </kbd>
+    <br>
+    <br>
+    <h2>2.2  LAS ENTIDADES</h2>
 </div>
 
 ### **¿QUÉ ES UAN ENTIDAD?**

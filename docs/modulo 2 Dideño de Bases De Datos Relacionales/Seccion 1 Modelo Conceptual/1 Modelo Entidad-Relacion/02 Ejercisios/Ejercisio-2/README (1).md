@@ -24,11 +24,14 @@ De cada proyecto se desea almacenar su número de identificación dentro de la a
 
 Un proyecto se compone a su vez de subproyectos.
 
+<div align="center">
 <details>
   <summary>Solución</summary>
   
-  ![Descripción de la imagen](./solucion.png)
+  <img src="solucion.png" alt="Solución" width="100%"/>
   
 </details>
 
 [Video resolviendo el ejercicio](https://youtu.be/3SFKqUnN4Cc)
+
+</div>>

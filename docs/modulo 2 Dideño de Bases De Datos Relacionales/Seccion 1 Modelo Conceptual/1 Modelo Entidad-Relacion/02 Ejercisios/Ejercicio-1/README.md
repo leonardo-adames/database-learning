@@ -18,11 +18,13 @@ Todo coche tiene siempre asignado un determinado garaje que no puede cambiar. De
 
 Cada reserva se realiza en una determinada agencia.
 
-<details>
-  <summary>Solución</summary>
+<div align="center">
+  <details>
+    <summary>SOLUCIÓN</summary>
   
-  ![Descripción de la imagen](./solucion.png)
-  
-</details>
+  <img src="solucion.png" alt="Solución" width="100%"/>
+  </details>
 
 [Video resolviendo el ejercicio](https://youtu.be/NFb9eX9s3ZY)
+
+</div>

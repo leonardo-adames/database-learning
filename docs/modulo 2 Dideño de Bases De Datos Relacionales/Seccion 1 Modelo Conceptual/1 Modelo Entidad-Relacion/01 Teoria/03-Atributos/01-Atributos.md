@@ -2,8 +2,10 @@
     <kbd>
         <h1><b>CURSO DE BASES DE DATOS- MÓDULO 2<br>DISEÑO & MODELADO DE BASES DE DATOS</b></h1>
         <img width="2064" height="350" alt="Image" src="Ejemplo Visual/los atributos.png" />
-    <h2>2.2  LOS ATRIBUTOS</h2>
     </kbd>
+    <br>
+    <br>
+    <h2>2.2  LOS ATRIBUTOS</h2>
 </div>
 
 ### **¿Qué es un atributo?**

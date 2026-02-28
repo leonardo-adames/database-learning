@@ -21,14 +21,20 @@ Todo coche tiene siempre asignado un determinado garaje que no puede cambiar. De
 
 Cada reserva se realiza en una determinada agencia.
 
+<div align="center">
 <details>
   <summary>Solución</summary>
   
-  ![Descripción de la imagen](./ejercicio-1/solucion.png)
+<img src="Ejercicio-1/solucion.png" alt="Solucion" width="100%"/>
   
 </details>
 
 [Video resolviendo el ejercicio](https://youtu.be/NFb9eX9s3ZY)
+
+</div>
+
+---
+---
 
 # Ejercicio 2
 
@@ -56,14 +62,20 @@ De cada proyecto se desea almacenar su número de identificación dentro de la a
 
 Un proyecto se compone a su vez de subproyectos.
 
+<div align="center">
 <details>
   <summary>Solución</summary>
   
-  ![Descripción de la imagen](./ejercicio-2/solucion.png)
+<img src="Ejercisio-2/solucion.png" alt="Solucion" width="100%"/>
   
 </details>
 
 [Video resolviendo el ejercicio](https://youtu.be/3SFKqUnN4Cc)
+
+</div>
+
+---
+---
 
 # Ejercicio 3
 
@@ -89,15 +101,21 @@ El personal sanitario formará parte de un grupo. Interesa saber el puesto que o
 
 Un conductor de ambulancia siempre conduce la misma ambulancia y una ambulancia siempre es conducida por el mismo conductor. Una ambulancia puede que no tenga asignado conductor. De al ambulancia sabemos su matrícula, tipo de ambulancia y instrumental médico que posee.
 
+<div align="center">
 <details>
   <summary>Solución</summary>
   
-  ![Descripción de la imagen](./ejercicio-3/solucion.png)
+<img src="Ejercisio-3/solucion.png" alt="Solucion" width="100%"/>
   
 </details>
 
 [Video resolviendo el ejercicio](https://youtu.be/Lwb89xS8Emo)
-  
+
+</div>
+
+---
+---
+
 # Ejercicio 4
 
 Lee atentamente la siguiente especificación de requisitos sobre la información a almacenar de una biblioteca para la gestión de las consultas a las enciclopedias por parte de los alumnos:
@@ -121,14 +139,20 @@ Unos se ocupan del mantenimiento de los armarios (de cada uno de estos tenemos q
 
 Otros empleados realizan solo tareas de gestión como la elaboración de las tarjetas de acceso (de estos interesa su titulación) y queremos conocer qué empleado ha sido el que ha elaborado cada una de las tarjetas.
 
+<div align="center">
 <details>
   <summary>Solución</summary>
   
-  ![Descripción de la imagen](./ejercicio-4/solucion.png)
+<img src="Ejercisio-4/solucion.png" alt="Solucion" width="100%"/>
   
 </details>
 
 [Video resolviendo el ejercicio](https://youtu.be/ZZ2dKyzIjic)
+
+</div>
+
+---
+---
 
 # Ejercicio 5
 
@@ -167,11 +191,17 @@ De cada partida, se registran todos los movimientos que la componen, la identifi
 
 Para cada movimiento se guardan la jugada y un breve comentario de un experto
 
+<div align="center">
 <details>
   <summary>Solución</summary>
   
-  ![Descripción de la imagen](./ejercicio-5/solucion.png)
+<img src="Ejercisio-5/solucion.png" alt="Solucion" width="100%"/>
   
 </details>
 
 [Video resolviendo el ejercicio](https://youtu.be/z5orMNEL8p0)
+
+</div>
+
+---
+---

@@ -21,11 +21,14 @@ Unos se ocupan del mantenimiento de los armarios (de cada uno de estos tenemos q
 
 Otros empleados realizan solo tareas de gestión como la elaboración de las tarjetas de acceso (de estos interesa su titulación) y queremos conocer qué empleado ha sido el que ha elaborado cada una de las tarjetas.
 
+<div align="center">
 <details>
   <summary>Solución</summary>
   
-  ![Descripción de la imagen](./solucion.png)
+  <img src="solucion.png" alt="Solución" width="100%"/>
   
 </details>
 
 [Video resolviendo el ejercicio](https://youtu.be/ZZ2dKyzIjic)
+
+</div>
